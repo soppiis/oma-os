@@ -19,15 +19,16 @@ modules:
   - type: rpm-ostree
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      # - https://copr.fedorainfracloud.org/coprs/faramirza/fzf/repo/fedora-%OS_VERSION%/faramirza-fzf-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/vulongm/gamescope-git/repo/fedora-%OS_VERSION%/vulongm-gamescope-git-fedora-%OS_VERSION%.repo
+       - https://copr.fedorainfracloud.org/coprs/faramirza/fzf/repo/fedora-%OS_VERSION%/faramirza-fzf-fedora-%OS_VERSION%.repo
+       - https://copr.fedorainfracloud.org/coprs/vulongm/gamescope-git/repo/fedora-%OS_VERSION%/vulongm-gamescope-git-fedora-%OS_VERSION%.repo
     install:
       # - gamescope
        - steam
-      # - mangohud
+       - mangohud
        - iscsi-initiator-utils
        - kf6-kimageformats
        - fish
+       - kitty
       # - corectrl
        
     remove:
