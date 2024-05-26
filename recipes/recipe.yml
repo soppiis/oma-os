@@ -28,7 +28,6 @@ modules:
        - iscsi-initiator-utils
        - kf6-kimageformats
        - fish
-       - kitty
       # - corectrl
        
     remove:
