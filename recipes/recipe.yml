@@ -4,7 +4,7 @@ name: oma-os
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/ublue-os/aurora-dx
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -27,9 +27,11 @@ modules:
        - mangohud
        - iscsi-initiator-utils
        - kf6-kimageformats
-       - fish
+      # - fish
        - virt-manager
        - qemu-device-usb-host
+       - firefox
+       - firefox-langpacks
       # - corectrl
        
     remove:
@@ -38,7 +40,24 @@ modules:
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
        - mesa-va-drivers-freeworld
-       - fzf
+      # - fzf
+       # DX
+       - adobe-source-code-pro-fonts
+       - cascadia-code-fonts
+       - google-go-mono-fonts
+       - devpod
+       - flatpak-builder
+       - jetbrains-mono-fonts-all
+       - lxc
+       - powerline-fonts
+       - powertop
+       - ubuntu-family-fonts
+       - skanpage
+       - epson-inkjet-printer-escpr
+       - epson-inkjet-printer-escpr2
+       - hplip
+       - printer-driver-brlaser
+       - solaar
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
