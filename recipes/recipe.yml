@@ -28,8 +28,8 @@ modules:
        - iscsi-initiator-utils
        - kf6-kimageformats
       # - fish
-       - virt-manager
-       - qemu-device-usb-host
+      # - virt-manager
+      # - qemu-device-usb-host
        - firefox
        - firefox-langpacks
       # - corectrl
