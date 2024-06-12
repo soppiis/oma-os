@@ -59,6 +59,8 @@ modules:
        - solaar
        - code
        - input-remapper
+       - rpmfusion-free-release
+       - rpmfusion-nonfree-release
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
