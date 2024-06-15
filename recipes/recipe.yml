@@ -23,7 +23,7 @@ modules:
        - https://copr.fedorainfracloud.org/coprs/vulongm/gamescope-git/repo/fedora-%OS_VERSION%/vulongm-gamescope-git-fedora-%OS_VERSION%.repo
     install:
       # - gamescope
-       - steam
+      # - steam
        - mangohud
        - iscsi-initiator-utils
        - kf6-kimageformats
