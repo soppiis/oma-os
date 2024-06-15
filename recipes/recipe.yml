@@ -33,7 +33,8 @@ modules:
        - qemu-device-usb-redirect
        - firefox
        - firefox-langpacks
-       - qt-heif-image-plugin
+      # - qt-heif-image-plugin
+       - gwenview
       # - corectrl
        
     remove:
@@ -79,7 +80,7 @@ modules:
          - org.mozilla.Thunderbird
          - org.gnome.World.PikaBackup
          - org.kde.okular
-         - org.kde.gwenview
+        # - org.kde.gwenview
          
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
