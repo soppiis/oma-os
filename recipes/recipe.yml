@@ -33,8 +33,8 @@ modules:
        - qemu-device-usb-redirect
        - firefox
        - firefox-langpacks
-      # - qt-heif-image-plugin
        - gwenview
+       - android-tools
       # - corectrl
        
     remove:
@@ -69,10 +69,6 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       remove:
       # - org.gnome.eog
-      # DX
-      # - app/org.gnome.DejaDup/x86_64/stable
-      # - app/io.github.dvlv.boxbuddyrs/x86_64/stable
-      # - app/io.github.flattool.Warehouse/x86_64/stable
        - app/org.kde.haruna/x86_64/stable
       
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
