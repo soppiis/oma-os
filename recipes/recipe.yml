@@ -35,6 +35,7 @@ modules:
        - firefox-langpacks
        - gwenview
        - android-tools
+       - syncthing
       # - corectrl
        
     remove:
