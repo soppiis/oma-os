@@ -28,9 +28,9 @@ modules:
        - iscsi-initiator-utils
        - kf6-kimageformats
       # - fish
-       - virt-manager
-       - qemu-device-usb-host
-       - qemu-device-usb-redirect
+       #- virt-manager
+       #- qemu-device-usb-host
+       #- qemu-device-usb-redirect
        - firefox
        - firefox-langpacks
        - gwenview
